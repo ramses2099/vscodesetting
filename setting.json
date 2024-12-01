@@ -1,0 +1,33 @@
+{
+  "editor.fontFamily": "JetbrainsMono Nerd Font",
+  "editor.fontSize": 16,
+  "editor.cursorBlinking": "phase",
+  "editor.cursorWidth": 10,
+  "editor.formatOnSaveMode": "file",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 4,
+  "window.zoomLevel": 0.8,
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#a75600"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  //python settings
+  "python.analysis.typeCheckingMode": "basic",
+  "python.linting.pylintEnabled": true,
+  "python.linting.provider": "black",
+  "pylint.args": [
+    "--disable=missing-class-docstring",
+    "--disable=missing-function-docstring",
+    "--disable=missing-module-docstring"
+  ],
+  //terminal setting
+  "terminal.integrated.fontSize": 15,
+  "todohighlight.isEnable": true,
+  "tabnine.experimentalAutoImports": true,
+  "workbench.activityBar.location": "hidden",
+  "window.commandCenter": false,
+}
