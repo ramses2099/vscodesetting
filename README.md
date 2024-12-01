@@ -24,6 +24,7 @@ ctl+shift+p
 
 # Key bindings for create new file and folders
 ```
+// Place your key bindings in this file to override the defaults
 [
     {
         "key": "ctrl+n",
@@ -39,20 +40,25 @@ ctl+shift+p
         "key": "ctrl+d",
         "command": "editor.action.copyLinesDownAction",
         "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+shift+d",
+        "command": "editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
     }
 ]
 ```
 
 # Shortcuts
-ctl+b side bar
-ctrl+` teminal integrate
-ctrl+up ctrl+down scrolling whit keyboard
-ctrl+p then @ navigate symbols
-ctrl+\ split editor window
-ctrl+w close tab
-ctrl+enter new line
-ctrl+shift+l select match
-- custom
-shift+alt+DownArrow for ctrl+d duplicate line
-alt+UpArrow alt+DownArrow Move Line 
+- ctl+b side bar
+- ctrl+` teminal integrate
+- ctrl+up ctrl+down scrolling whit keyboard
+- ctrl+p then @ navigate symbols
+- ctrl+\ split editor window
+- ctrl+w close tab
+- ctrl+enter new line
+- ctrl+shift+l select match
+- Custom
+    - shift+alt+DownArrow for ctrl+d duplicate line
+- alt+UpArrow alt+DownArrow Move Line 
 
