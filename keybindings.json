@@ -9,5 +9,15 @@
         "key": "ctrl+shift+n",
         "command": "explorer.newFolder",
         "when": "!editorFocus"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+shift+d",
+        "command": "editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
     }
 ]
